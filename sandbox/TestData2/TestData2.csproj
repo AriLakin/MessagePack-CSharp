@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MessagePack" />
+    <PackageReference Include="IsExternalInit" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" />
+    <PackageReference Include="System.ValueTuple" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="System.Collections.Generic" />
+    <Using Include="MessagePack" />
+  </ItemGroup>
+</Project>
